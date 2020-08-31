@@ -1,0 +1,2 @@
+<b>Php+Xls</b>查立得快搜系统 V1.0<br>
+输入内容参考：打开shujukufangzheli文件夹下打开选项对应文件看第一列。

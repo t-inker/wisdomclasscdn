@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WisdomClass学生</title>
+<style type="text/css">
+  @import url("css/mdui.min.css");
+</style>
+<script
+  src="js/mdui.js">
+</script>
+
+</head>
+
+<body class="mdui-appbar-with-tab mdui-appbar-with-toolbar">
+	<div class="mdui-appbar mdui-appbar-fixed">
+		<div class="mdui-toolbar mdui-color-blue-600">
+			<a href="javascript:;" class="mdui-typo-title">WisdomClass班级数字服务平台</a>
+			<div class="mdui-toolbar-spacer"></div>
+			<a class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#abouticon'}"><i class="mdui-icon material-icons">info_outline</i></a>
+			<a class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#forumdisabled'}"><i class="mdui-icon material-icons">forum</i></a>
+			<a href="javascript:location.reload();" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">refresh</i></a>			
+		</div>
+		<div class="mdui-tab mdui-color-blue-600" mdui-tab>
+			<a href="#cloud" class="mdui-ripple mdui-ripple-white mdui-tab-active">云服务</a>
+			<a href="#tool" class="mdui-ripple mdui-ripple-white">工具</a>    
+			<a href="#lab" class="mdui-ripple mdui-ripple-white">实验室</a>
+			<a href="#about" class="mdui-ripple mdui-ripple-white">关于</a>
+		</div>
+	</div>
+	<div id="cloud" class="mdui-p-a-2">
+		<div class="mdui-container-fluid">
+			<div class="mdui-row">
+				<div class="mdui-col-xs-6">
+					<div class="mdui-card">
+						<!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
+						<div class="mdui-card-media">
+							<!-- 卡片中可以包含一个或多个菜单按钮 -->
+							<div class="mdui-card-menu">
+								<button class="mdui-btn mdui-btn-icon mdui-text-color-white"><i class="mdui-icon material-icons">share</i></button>
+							</div>
+						</div>
+						<!-- 卡片的标题和副标题 -->
+						<div class="mdui-card-primary">
+							<div class="mdui-card-primary-title">云存储</div>
+							<div class="mdui-card-primary-subtitle">Ver.56</div>
+						</div>
+						<!-- 卡片的内容 -->
+						<div class="mdui-card-content">此功能基于开源项目FileBrowser。初次使用请点击"激活账户"，使用许可证号取得账号和默认密码。
+						</div>  
+						<!-- 卡片的按钮 -->					
+						<div class="mdui-card-actions">
+							<a href="https://www.huosoft.top:1906/softwarelicense/index.php" class="mdui-btn mdui-ripple mdui-text-color-blue-600">激活账户</a>
+							<a href="https://www.huosoft.top:19063" class="mdui-btn mdui-ripple mdui-text-color-blue-600">进入功能</a>
+							<a class="mdui-btn mdui-btn-icon mdui-float-right" mdui-dialog="{target: '#cloudinfo'}"><i class="mdui-icon material-icons">info_outline</i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="tool" class="mdui-p-a-2">
+		<div class="mdui-container-fluid">
+			<div class="mdui-row">
+				<div class="mdui-col-xs-6">
+					<div class="mdui-card">
+						<!-- 卡片的标题和副标题 -->
+						<div class="mdui-card-primary">
+							<div class="mdui-card-primary-title">计算器</div>
+							<div class="mdui-card-primary-subtitle">Ver.2</div>
+						</div>
+						<!-- 卡片的内容 -->
+						<div class="mdui-card-content">简易计算器，支持加减乘除和平方开平方运算。
+						</div>  
+						<!-- 卡片的按钮 -->					
+						<div class="mdui-card-actions">
+							<a href="https://www.huosoft.top:1906/student/tools/calculator/calculator.html" class="mdui-btn mdui-ripple mdui-text-color-blue-600">进入功能</a>
+							<a class="mdui-btn mdui-btn-icon mdui-float-right" mdui-dialog="{target: '#tooljisuanqiinfo'}"><i class="mdui-icon material-icons">info_outline</i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div id="lab" class="mdui-p-a-2">
+		<div class="mdui-container-fluid">
+			<div class="mdui-row">
+				<div class="mdui-col-xs-6">
+					<div class="mdui-card">
+						<!-- 卡片的标题和副标题 -->
+						<div class="mdui-card-primary">
+							<div class="mdui-card-primary-title">随机电音</div>
+							<div class="mdui-card-primary-subtitle">Ver.ALPHA.1</div>
+						</div>
+						<!-- 卡片的内容 -->
+						<div class="mdui-card-content">随机音调，来自GitHub。
+						</div>  
+						<!-- 卡片的按钮 -->					
+						<div class="mdui-card-actions">
+							<a href="https://www.huosoft.top:1906/student/tools/musicblock/" class="mdui-btn mdui-ripple mdui-text-color-blue-600">进入功能</a>
+							<a class="mdui-btn mdui-btn-icon mdui-float-right" mdui-dialog="{target: '#toolmusicblockinfo'}"><i class="mdui-icon material-icons">info_outline</i></a>
+						</div>
+					</div>
+				</div>
+				<div class="mdui-col-xs-6">
+					<div class="mdui-card">
+						<!-- 卡片的标题和副标题 -->
+						<div class="mdui-card-primary">
+							<div class="mdui-card-primary-title">正向透明代理</div>
+							<div class="mdui-card-primary-subtitle">Ver.ALPHA.1</div>
+						</div>
+						<!-- 卡片的内容 -->
+						<div class="mdui-card-content">正向代理服务，尚处于测试阶段，无法使用。
+						</div>  
+						<!-- 卡片的按钮 -->					
+						<div class="mdui-card-actions">
+							<a class="mdui-btn mdui-ripple mdui-text-color-blue-600" mdui-dialog="{target: '#forumdisabled'}">进入功能</a>
+							<a class="mdui-btn mdui-btn-icon mdui-float-right" mdui-dialog="{target: '#toolmusicblockinfo'}"><i class="mdui-icon material-icons">info_outline</i></a>
+						</div>
+					</div>
+				</div>
+		</div> 
+	
+		</div>
+
+	</div>
+	<div id="about" class="mdui-p-a-2">
+		<div class="mdui-typo-headline">
+			<h1>WIsdomClass班级数字服务平台</h1>
+			<p> 版本号请点击右上角按钮查看。</p>
+			<p> 此平台仅供19级6班同学使用，请不要向他人提供平台账号和密码。 </p>
+			<img class="mdui-img-fluid" src="res/logo.png" alt=""/>
+		</div>
+		<br />
+		<br />
+		<a href="privacy.html" class="mdui-btn mdui-color-blue-600 mdui-ripple"> 隐私政策 </a>
+		<a href="developers.html" class="mdui-btn mdui-color-blue-600 mdui-ripple"> 开发人员 </a>
+<!--		<a href="updatehistory.html" class="mdui-btn mdui-color-blue-600 mdui-ripple"> 更新日志 </a>
+-->
+</div>
+
+
+	<div class="mdui-dialog" id="forumdisabled">
+		<div class="mdui-dialog-title">功能尚未开放</div>
+		<div class="mdui-dialog-content">此功能尚处于开发阶段，不允许学生使用。</div>
+		<div class="mdui-dialog-actions">
+			<button class="mdui-btn mdui-ripple" mdui-dialog-close>知道了</button>
+		</div>
+	</div>
+	<div class="mdui-dialog" id="abouticon">
+		<div class="mdui-dialog-title">版本信息</div>
+		<div class="mdui-dialog-content">
+			WisdomClass学生版
+			<br>
+			发布日期 2020.8.27
+			<br>
+			版本号 Ver.14（Build 78）
+		</div>
+		<div class="mdui-dialog-actions">
+			<button class="mdui-btn mdui-ripple" mdui-dialog-close>关闭</button>
+		</div>
+	</div>
+	<div class="mdui-dialog" id="cloudinfo">
+		<div class="mdui-dialog-title">隐私提示</div>
+		<div class="mdui-dialog-content">我们使用由第三方提供的审查服务审查您存储的文件，有权冻结违规文件。</div>
+		<div class="mdui-dialog-actions">
+			<button class="mdui-btn mdui-ripple" mdui-dialog-close>知道了</button>
+		</div>
+	</div>
+	<div class="mdui-dialog" id="tooljisuanqiinfo">
+		<div class="mdui-dialog-title">使用提示</div>
+		<div class="mdui-dialog-content">请勿在考试时使用，使用本功能造成的一切后果概不负责。</div>
+		<div class="mdui-dialog-actions">
+			<button class="mdui-btn mdui-ripple" mdui-dialog-close>知道了</button>
+		</div>
+	</div>
+	<div class="mdui-dialog" id="toolmusicblockinfo">
+		<div class="mdui-dialog-title">测试应用提示</div>
+		<div class="mdui-dialog-content">这是测试功能。</div>
+		<div class="mdui-dialog-actions">
+			<button class="mdui-btn mdui-ripple" mdui-dialog-close>知道了</button>
+		</div>
+	</div>
+
+
+</body>
+
+</html>

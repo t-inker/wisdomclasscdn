@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WisdomClass学生</title>
+<style type="text/css">
+  @import url("css/mdui.min.css");
+</style>
+<script
+  src="js/mdui.js">
+</script>
+
+</head>
+
+<body>
+	<div class="mdui-container-fluid">
+	  <div class="mdui-row">
+			<div class="mdui-col-xs-2 mdui-col-offset-xs-5">
+				<img class="mdui-img-fluid" src="res/logo.png" alt=""/>
+		    </div>
+			<div class="mdui-col-xs-6 mdui-col-offset-xs-3">
+			<div class="mdui-typo-headline mdui-text-center">
+				<h1>
+				<script language="LiveScript">
+					now = new Date(),hour = now.getHours()
+					if(hour < 4){document.write("建议休息")}
+					else if (hour < 7){document.write("早上好")}
+					else if (hour < 11){document.write("上午好")}
+					else if (hour < 14){document.write("中午好")}
+					else if (hour < 18){document.write("下午好")}		
+					else if (hour < 22){document.write("晚上好")}		
+					else if (hour < 24){document.write("建议休息")}
+				</script>
+				</h1>	  
+				<p> 欢迎使用WisdomClass班级数字服务平台！</p>
+				<p class="mdui-typo-body-1-opacity"> DreamSky ©2018-现在 huosoft.top</p>
+			</div>
+			<div class="mdui-text-center">
+				<a href="index.html" class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-blue-600">进入平台</a>
+				<a href="privacy.html" class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-blue-600">隐私政策</a>
+			</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
