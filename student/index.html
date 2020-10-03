@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>WisdomClass学生</title>
+<link REL = "Shortcut Icon" href="../WISDOMCLASSLOGOMINI.ico"  /> 
 <style type="text/css">
   @import url("css/mdui.min.css");
 </style>
@@ -17,8 +18,9 @@
 		<div class="mdui-toolbar mdui-color-blue-600">
 			<a href="javascript:;" class="mdui-typo-title">WisdomClass班级数字服务平台</a>
 			<div class="mdui-toolbar-spacer"></div>
+			<a class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#changetodevmode'}"><i class="mdui-icon material-icons">code</i></a>
 			<a class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#abouticon'}"><i class="mdui-icon material-icons">info_outline</i></a>
-			<a class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#forumdisabled'}"><i class="mdui-icon material-icons">forum</i></a>
+			<a class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#forumtip'}"><i class="mdui-icon material-icons">feedback</i></a>
 			<a href="javascript:location.reload();" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">refresh</i></a>			
 		</div>
 		<div class="mdui-tab mdui-color-blue-600" mdui-tab>
@@ -46,16 +48,43 @@
 							<div class="mdui-card-primary-subtitle">Ver.56</div>
 						</div>
 						<!-- 卡片的内容 -->
-						<div class="mdui-card-content">此功能基于开源项目FileBrowser。初次使用请点击"激活账户"，使用许可证号取得账号和默认密码。
+						<div class="mdui-card-content">此功能基于开源项目FileBrowser。初次使用请使用平板电脑点击"激活账户"，使用许可证号取得账号和默认密码。
 						</div>  
 						<!-- 卡片的按钮 -->					
 						<div class="mdui-card-actions">
-							<a href="https://www.huosoft.top:1906/softwarelicense/index.php" class="mdui-btn mdui-ripple mdui-text-color-blue-600">激活账户</a>
-							<a href="https://www.huosoft.top:19063" class="mdui-btn mdui-ripple mdui-text-color-blue-600">进入功能</a>
+							<a href="http://10.20.30.117:1906/softwarelicense/index.php" class="mdui-btn mdui-ripple mdui-text-color-blue-600">激活账户</a>	
+							<a href="http://10.20.30.117:19063" class="mdui-btn mdui-ripple mdui-text-color-blue-600">班级网络入口</a>
+							<a href="https://www.huosoft.top:19063" class="mdui-btn mdui-ripple mdui-text-color-blue-600">公网入口</a>							
 							<a class="mdui-btn mdui-btn-icon mdui-float-right" mdui-dialog="{target: '#cloudinfo'}"><i class="mdui-icon material-icons">info_outline</i></a>
 						</div>
 					</div>
 				</div>
+				<div class="mdui-col-xs-6">
+					<div class="mdui-card">
+						<!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
+						<div class="mdui-card-media">
+							<!-- 卡片中可以包含一个或多个菜单按钮 -->
+							<div class="mdui-card-menu">
+								<button class="mdui-btn mdui-btn-icon mdui-text-color-white"><i class="mdui-icon material-icons">share</i></button>
+							</div>
+						</div>
+						<!-- 卡片的标题和副标题 -->
+						<div class="mdui-card-primary">
+							<div class="mdui-card-primary-title">论坛</div>
+							<div class="mdui-card-primary-subtitle">Ver.12</div>
+						</div>
+						<!-- 卡片的内容 -->
+						<div class="mdui-card-content">此功能基于开源项目MDClub，请先使用手机或电脑注册账号，平板暂不支持注册账号。平板电脑仅支持在班级网络下使用。
+						</div>  
+						<!-- 卡片的按钮 -->					
+						<div class="mdui-card-actions">
+							<a href="http://10.20.30.117:19066" class="mdui-btn mdui-ripple mdui-text-color-blue-600">班级网络入口</a>
+							<a href="https://www.huosoft.top:19066" class="mdui-btn mdui-ripple mdui-text-color-blue-600">公网入口</a>
+							<a class="mdui-btn mdui-btn-icon mdui-float-right" mdui-dialog="{target: '#tooljisuanqiinfo'}"><i class="mdui-icon material-icons">info_outline</i></a>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
@@ -74,7 +103,7 @@
 						</div>  
 						<!-- 卡片的按钮 -->					
 						<div class="mdui-card-actions">
-							<a href="https://www.huosoft.top:1906/student/tools/calculator/calculator.html" class="mdui-btn mdui-ripple mdui-text-color-blue-600">进入功能</a>
+							<a href="tools/calculator/calculator.html" class="mdui-btn mdui-ripple mdui-text-color-blue-600">进入功能</a>
 							<a class="mdui-btn mdui-btn-icon mdui-float-right" mdui-dialog="{target: '#tooljisuanqiinfo'}"><i class="mdui-icon material-icons">info_outline</i></a>
 						</div>
 					</div>
@@ -98,7 +127,7 @@
 						</div>  
 						<!-- 卡片的按钮 -->					
 						<div class="mdui-card-actions">
-							<a href="https://www.huosoft.top:1906/student/tools/musicblock/" class="mdui-btn mdui-ripple mdui-text-color-blue-600">进入功能</a>
+							<a href="tools/musicblock/" class="mdui-btn mdui-ripple mdui-text-color-blue-600">进入功能</a>
 							<a class="mdui-btn mdui-btn-icon mdui-float-right" mdui-dialog="{target: '#toolmusicblockinfo'}"><i class="mdui-icon material-icons">info_outline</i></a>
 						</div>
 					</div>
@@ -148,14 +177,22 @@
 			<button class="mdui-btn mdui-ripple" mdui-dialog-close>知道了</button>
 		</div>
 	</div>
+	<div class="mdui-dialog" id="forumtip">
+		<div class="mdui-dialog-title">反馈问题</div>
+		<div class="mdui-dialog-content">如果你有论坛访问权限，请到WisdomClass论坛-"Bug反馈"发帖。</div>
+		<div class="mdui-dialog-actions">
+			<button class="mdui-btn mdui-ripple" mdui-dialog-close>知道了</button>
+		</div>
+	</div>
+
 	<div class="mdui-dialog" id="abouticon">
 		<div class="mdui-dialog-title">版本信息</div>
 		<div class="mdui-dialog-content">
 			WisdomClass学生版
 			<br>
-			发布日期 2020.8.27
+			发布日期 2020.9.12
 			<br>
-			版本号 Ver.14（Build 78）
+			版本号 Ver.15（Build 94）
 		</div>
 		<div class="mdui-dialog-actions">
 			<button class="mdui-btn mdui-ripple" mdui-dialog-close>关闭</button>
@@ -182,7 +219,16 @@
 			<button class="mdui-btn mdui-ripple" mdui-dialog-close>知道了</button>
 		</div>
 	</div>
+	<div class="mdui-dialog" id="changetodevmode">
+		<div class="mdui-dialog-title">要切换至开发者模式吗？</div>
+		<div class="mdui-dialog-content">切换至开发者模式后，系统将显示尚在处于开发阶段的功能。</div>
+		<div class="mdui-dialog-actions">
+			<button class="mdui-btn mdui-ripple" mdui-dialog-close>取消</button>
+			<a href="devindex.html" class="mdui-btn mdui-ripple">确定切换</a>
+		</div>
+	</div>
 
+	
 
 </body>
 
